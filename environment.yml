@@ -1,0 +1,18 @@
+name: cf-training-workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.6
+  - numpy
+  - matplotlib
+  - cartopy>=0.17
+  - jupyter
+  - jupyterlab
+  - netcdf4
+  - shapely
+  - xarray
+  - pip
+  - pip:
+    - cfdm
+    - cfgeom
